@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class velocity : MonoBehaviour {
-	private float speed = 20.0f;	
-	// Use this for initialization
+	private float speed = 3.0f;	
+	// Use this or initialization
 	void Start () {
 	this.GetComponent<Rigidbody>().AddForce(
             (transform.right) * speed,
